@@ -1,0 +1,21 @@
+// Общие файлы
+@import './part/slick-theme';
+@import './part/slick';
+
+@import './general/fonts';
+@import './general/reset';
+@import './general/general';
+
+
+// Куски кода
+@import './general/btn';
+
+// Страницы сайта
+@import './page/index';
+@import './page/catalog';
+@import './page/product';
+@import './page/bag';
+@import './page/showrooms';
+// Media 
+
+@import './part/media';

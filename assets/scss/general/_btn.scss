@@ -1,0 +1,40 @@
+.btn {
+	button {
+		cursor: pointer;
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 135.69%;
+		color: #3A182D;
+		width: 330px;
+		height: 65px;
+		border: 2px solid #3a182d;
+		background-color: #fff;
+		@include Roboto();
+		transition: $transition;
+		&:hover {
+			transition: $transition;
+			color: #fff;
+			background-color: #14420D;
+			border: 2px solid #14420D;
+		}
+	}
+}
+
+.btn-bag {
+	button {
+		cursor: pointer;
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 135.69%;
+		padding: 19px 0;
+		width: 460px;
+		color: #fff;
+		background-color: #14420d;
+		border: 2px solid #14420d;
+		transition: $transition;
+		&:hover {
+			background-color: #fff;
+			color: #14420d;
+		}
+	}
+}

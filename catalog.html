@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet">
+	<link rel="stylesheet" href="./assets/css/main.css">
+	<title>EXPI</title>
+</head>
+
+<body>
+	<header>
+		<div class="header-menu">
+			<div class="wrapper">
+				<div class="menu">
+					<div class="menu-left">
+						<div class="logo"><a href="#!"><svg width="80" height="29" viewBox="0 0 80 29" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M0.8 29H19.2V25.06H4.98V16.16H16.8V12.22H4.98V4.14H19.2V0.199999H0.8V29ZM21.6031 29H26.7431L34.0031 17.98L41.2431 29H46.3631L36.5631 14.42L46.1231 0.199999H40.9831L34.0031 10.88L26.9831 0.199999H21.8631L31.4231 14.42L21.6031 29ZM49.55 29H53.73V18.66H61.19C61.4567 18.66 61.7967 18.6467 62.21 18.62C62.6367 18.5933 63.0367 18.5533 63.41 18.5C65.81 18.1133 67.61 17.0867 68.81 15.42C70.0233 13.7533 70.63 11.7533 70.63 9.42C70.63 7.08667 70.03 5.08667 68.83 3.42C67.63 1.75333 65.8233 0.733332 63.41 0.359999C63.0367 0.293333 62.6433 0.253332 62.23 0.239998C61.8167 0.213332 61.47 0.199999 61.19 0.199999H49.55V29ZM53.73 14.7V4.14H61.03C61.2967 4.14 61.59 4.15333 61.91 4.18C62.2433 4.20667 62.5567 4.26 62.85 4.34C64.13 4.63333 65.0367 5.28666 65.57 6.3C66.1033 7.31333 66.37 8.35333 66.37 9.42C66.37 10.4733 66.1033 11.5133 65.57 12.54C65.0367 13.5533 64.13 14.2133 62.85 14.52C62.5567 14.5867 62.2433 14.6333 61.91 14.66C61.59 14.6867 61.2967 14.7 61.03 14.7H53.73ZM75.0281 29H79.2081V0.199999H75.0281V29Z"
+										fill="#3A182D" />
+								</svg>
+							</a></div>
+						<ul>
+							<li class="top-list"><a href="#!">New collection</a></li>
+							<li class="top-list"><a href="#!">Men</a></li>
+							<li class="top-list"><a href="#!">Women</a></li>
+							<li class="top-list"><a href="#!">Sale</a></li>
+						</ul>
+					</div>
+					<div class="menu-right">
+						<div class="menu-right-text"><a href="#!">Assistance</a></div>
+						<div class="bar"><a href="#!">
+								<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M26 8H6C5.44772 8 5 8.44772 5 9V25C5 25.5523 5.44772 26 6 26H26C26.5523 26 27 25.5523 27 25V9C27 8.44772 26.5523 8 26 8Z"
+										stroke="#3A182D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									<path
+										d="M11 8C11 6.67392 11.5268 5.40215 12.4645 4.46447C13.4021 3.52678 14.6739 3 16 3C17.3261 3 18.5979 3.52678 19.5355 4.46447C20.4732 5.40215 21 6.67392 21 8"
+										stroke="#3A182D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+							</a>
+						</div>
+						<div class="bar">
+							<a href="#!"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M16.7071 26.4853L26.8361 16.3563C29.3249 13.8675 29.6921 9.77301 27.3369 7.15747C26.7469 6.50043 26.0293 5.97048 25.2278 5.59994C24.4262 5.22941 23.5576 5.02608 22.6749 5.00234C21.7922 4.9786 20.9139 5.13496 20.0936 5.46188C19.2733 5.7888 18.5282 6.27942 17.9038 6.9038L16 8.8076L14.3563 7.16386C11.8675 4.67506 7.77302 4.30787 5.15748 6.66312C4.50044 7.25308 3.97048 7.97071 3.59995 8.77224C3.22942 9.57378 3.02609 10.4424 3.00235 11.3251C2.97861 12.2078 3.13497 13.0861 3.46189 13.9064C3.78881 14.7267 4.27943 15.4718 4.90381 16.0962L15.2929 26.4853C15.4804 26.6728 15.7348 26.7782 16 26.7782C16.2652 26.7782 16.5196 26.6728 16.7071 26.4853V26.4853Z"
+										stroke="#3A182D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								</svg></a>
+						</div>
+						<div class="bar">
+							<a href="#!"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M14.5 25C20.299 25 25 20.299 25 14.5C25 8.70101 20.299 4 14.5 4C8.70101 4 4 8.70101 4 14.5C4 20.299 8.70101 25 14.5 25Z"
+										stroke="#3A182D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M21.9242 21.925L27.9993 28.0001" stroke="#3A182D" stroke-width="2"
+										stroke-linecap="round" stroke-linejoin="round" />
+								</svg></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="rew">
+			<div class="menu-mobile">
+				<div class="wrapper">
+					<div class="header-mobile">
+						<div class="top-mobile">
+							<div class="open-menu"><svg width="16" height="14" viewBox="0 0 16 14" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path d="M0 0V1.5H16V0H0ZM0 7.75H16V6.25H0V7.75ZM0 14H16V12.5H0V14Z" fill="black" />
+								</svg>
+							</div>
+							<div class="logo"><a href="#!"><svg width="80" height="29" viewBox="0 0 80 29" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M0.8 29H19.2V25.06H4.98V16.16H16.8V12.22H4.98V4.14H19.2V0.199999H0.8V29ZM21.6031 29H26.7431L34.0031 17.98L41.2431 29H46.3631L36.5631 14.42L46.1231 0.199999H40.9831L34.0031 10.88L26.9831 0.199999H21.8631L31.4231 14.42L21.6031 29ZM49.55 29H53.73V18.66H61.19C61.4567 18.66 61.7967 18.6467 62.21 18.62C62.6367 18.5933 63.0367 18.5533 63.41 18.5C65.81 18.1133 67.61 17.0867 68.81 15.42C70.0233 13.7533 70.63 11.7533 70.63 9.42C70.63 7.08667 70.03 5.08667 68.83 3.42C67.63 1.75333 65.8233 0.733332 63.41 0.359999C63.0367 0.293333 62.6433 0.253332 62.23 0.239998C61.8167 0.213332 61.47 0.199999 61.19 0.199999H49.55V29ZM53.73 14.7V4.14H61.03C61.2967 4.14 61.59 4.15333 61.91 4.18C62.2433 4.20667 62.5567 4.26 62.85 4.34C64.13 4.63333 65.0367 5.28666 65.57 6.3C66.1033 7.31333 66.37 8.35333 66.37 9.42C66.37 10.4733 66.1033 11.5133 65.57 12.54C65.0367 13.5533 64.13 14.2133 62.85 14.52C62.5567 14.5867 62.2433 14.6333 61.91 14.66C61.59 14.6867 61.2967 14.7 61.03 14.7H53.73ZM75.0281 29H79.2081V0.199999H75.0281V29Z"
+											fill="#3A182D" />
+									</svg>
+								</a></div>
+							<div class="basket">
+								<a href="#!"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M14.5 25C20.299 25 25 20.299 25 14.5C25 8.70101 20.299 4 14.5 4C8.70101 4 4 8.70101 4 14.5C4 20.299 8.70101 25 14.5 25Z"
+											stroke="#3A182D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M21.9242 21.925L27.9993 28.0001" stroke="#3A182D" stroke-width="2"
+											stroke-linecap="round" stroke-linejoin="round" />
+									</svg></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slide-mobile-menu">
+				<div class="slider-top">
+					<div class="none"></div>
+					<div class="logo"><a href="#!"><svg width="80" height="29" viewBox="0 0 80 29" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M0.8 29H19.2V25.06H4.98V16.16H16.8V12.22H4.98V4.14H19.2V0.199999H0.8V29ZM21.6031 29H26.7431L34.0031 17.98L41.2431 29H46.3631L36.5631 14.42L46.1231 0.199999H40.9831L34.0031 10.88L26.9831 0.199999H21.8631L31.4231 14.42L21.6031 29ZM49.55 29H53.73V18.66H61.19C61.4567 18.66 61.7967 18.6467 62.21 18.62C62.6367 18.5933 63.0367 18.5533 63.41 18.5C65.81 18.1133 67.61 17.0867 68.81 15.42C70.0233 13.7533 70.63 11.7533 70.63 9.42C70.63 7.08667 70.03 5.08667 68.83 3.42C67.63 1.75333 65.8233 0.733332 63.41 0.359999C63.0367 0.293333 62.6433 0.253332 62.23 0.239998C61.8167 0.213332 61.47 0.199999 61.19 0.199999H49.55V29ZM53.73 14.7V4.14H61.03C61.2967 4.14 61.59 4.15333 61.91 4.18C62.2433 4.20667 62.5567 4.26 62.85 4.34C64.13 4.63333 65.0367 5.28666 65.57 6.3C66.1033 7.31333 66.37 8.35333 66.37 9.42C66.37 10.4733 66.1033 11.5133 65.57 12.54C65.0367 13.5533 64.13 14.2133 62.85 14.52C62.5567 14.5867 62.2433 14.6333 61.91 14.66C61.59 14.6867 61.2967 14.7 61.03 14.7H53.73ZM75.0281 29H79.2081V0.199999H75.0281V29Z"
+									fill="#3A182D" />
+							</svg>
+						</a></div>
+					<div class="close"></div>
+				</div>
+				<div class="block-mobile">
+					<ul>
+						<li><a href="#!">New collection</a>
+						</li>
+						<li><a href="#!">Men</a></li>
+						<li><a href="#!">Women</a></li>
+						<li><a href="#!">Sale</a></li>
+					</ul>
+					<div class="soc-seti">
+						<div class="seti">
+							<a href="#!"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<g style="mix-blend-mode:darken">
+										<rect width="32" height="32" fill="white" />
+										<path
+											d="M4.6875 32H15.125V20.625H11.375V16.875H15.125V12.1875C15.125 9.60278 17.2278 7.5 19.8125 7.5H24.5V11.25H20.75C19.7161 11.25 18.875 12.0911 18.875 13.125V16.875H24.3308L23.7058 20.625H18.875V32H27.3125C29.8972 32 32 29.8972 32 27.3125V4.6875C32 2.10278 29.8972 0 27.3125 0H4.6875C2.10278 0 0 2.10278 0 4.6875V27.3125C0 29.8972 2.10278 32 4.6875 32ZM1.875 4.6875C1.875 3.13672 3.13672 1.875 4.6875 1.875H27.3125C28.8633 1.875 30.125 3.13672 30.125 4.6875V27.3125C30.125 28.8633 28.8633 30.125 27.3125 30.125H20.75V22.5H25.2942L26.5442 15H20.75V13.125H26.375V5.625H19.8125C16.1938 5.625 13.25 8.56885 13.25 12.1875V15H9.5V22.5H13.25V30.125H4.6875C3.13672 30.125 1.875 28.8633 1.875 27.3125V4.6875Z"
+											fill="#3A182D" />
+									</g>
+								</svg>
+							</a>
+						</div>
+						<div class="seti">
+							<a href="#!"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<g style="mix-blend-mode:darken">
+										<rect width="32" height="32" fill="white" />
+										<path
+											d="M4.6875 32H27.3125C29.8972 32 32 29.8972 32 27.3125V4.6875C32 2.10278 29.8972 0 27.3125 0H4.6875C2.10278 0 0 2.10278 0 4.6875V27.3125C0 29.8972 2.10278 32 4.6875 32ZM1.875 4.6875C1.875 3.13672 3.13672 1.875 4.6875 1.875H27.3125C28.8633 1.875 30.125 3.13672 30.125 4.6875V27.3125C30.125 28.8633 28.8633 30.125 27.3125 30.125H4.6875C3.13672 30.125 1.875 28.8633 1.875 27.3125V4.6875Z"
+											fill="#3A182D" />
+										<path
+											d="M16 24.4375C20.6523 24.4375 24.4375 20.6523 24.4375 16C24.4375 11.3477 20.6523 7.5625 16 7.5625C11.3477 7.5625 7.5625 11.3477 7.5625 16C7.5625 20.6523 11.3477 24.4375 16 24.4375ZM16 9.4375C19.6187 9.4375 22.5625 12.3813 22.5625 16C22.5625 19.6187 19.6187 22.5625 16 22.5625C12.3813 22.5625 9.4375 19.6187 9.4375 16C9.4375 12.3813 12.3813 9.4375 16 9.4375Z"
+											fill="#3A182D" />
+										<path
+											d="M25.375 9.4375C26.9258 9.4375 28.1875 8.17578 28.1875 6.625C28.1875 5.07422 26.9258 3.8125 25.375 3.8125C23.8242 3.8125 22.5625 5.07422 22.5625 6.625C22.5625 8.17578 23.8242 9.4375 25.375 9.4375ZM25.375 5.6875C25.8918 5.6875 26.3125 6.10815 26.3125 6.625C26.3125 7.14185 25.8918 7.5625 25.375 7.5625C24.8582 7.5625 24.4375 7.14185 24.4375 6.625C24.4375 6.10815 24.8582 5.6875 25.375 5.6875Z"
+											fill="#3A182D" />
+									</g>
+								</svg>
+							</a>
+						</div>
+						<div class="seti">
+							<a href="#!"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<g style="mix-blend-mode:darken" clip-path="url(#clip0_246_1669)">
+										<rect width="32" height="32" fill="white" />
+										<path
+											d="M6.25151 18.6445L7.33648 19.3549L7.74688 17.8147C8.47319 15.1071 8.39629 15.2268 8.46904 14.9262C8.4395 14.7575 7.67485 12.7234 8.20732 10.2519L8.21782 10.195C8.94561 5.38986 16.9871 4.082 20.7212 7.20871C22.3321 8.55759 22.9383 10.5818 22.4737 13.0625C22.1402 14.844 21.5579 16.1723 20.6416 17.2429C19.3768 18.7209 17.7859 18.841 16.8436 18.3271C16.4927 18.136 15.7154 17.5608 16.0757 16.3549C16.5911 14.6291 17.5223 12.0298 17.6324 10.1447C17.7305 8.46555 16.7178 7.09885 15.1124 6.74387C13.3228 6.34812 11.2608 7.31394 10.3692 9.56662C9.72759 11.187 9.7293 12.8711 10.3746 14.7129C10.3956 15.1672 9.93316 16.8806 9.56011 18.2629C8.43242 22.4421 6.88774 28.1652 8.39214 31.0796L8.86748 32L9.73565 31.4353C12.2168 29.8222 13.6663 25.1301 14.4607 22.207C16.5521 23.7556 19.5154 23.8862 22.4466 22.4548C27.1521 20.1567 30.2911 14.6728 28.7183 8.56735C26.9654 1.76242 20.1622 -0.875271 13.3099 0.251682C7.66118 1.18039 4.06865 4.83933 3.11504 9.34909C2.3106 13.154 3.57109 16.8896 6.25151 18.6445ZM4.94878 9.73679C5.80059 5.70774 9.03984 2.85324 13.6138 2.10105C19.107 1.19773 25.3467 2.99143 26.9034 9.03488C28.3431 14.6237 25.1761 19.0361 21.6241 20.7707C19.4451 21.8347 16.4839 22.1501 14.7073 19.8442L13.5481 18.3398L13.0594 20.1748C12.4139 22.5957 11.3699 26.7055 9.69292 28.9021C9.36357 26.185 10.5879 21.6472 11.3694 18.7514C12.1155 15.987 12.4083 14.8374 12.1587 14.1372C11.6541 12.7209 11.6387 11.4516 12.1116 10.2563C12.6414 8.91818 13.7713 8.36667 14.7076 8.5737C15.0457 8.64865 15.8252 8.94064 15.7613 10.0354C15.6666 11.6548 14.7623 14.2033 14.2798 15.8186C13.7732 17.5141 14.4273 19.1447 15.9463 19.9729C17.6534 20.9033 20.2161 20.6223 22.0655 18.4616C23.2041 17.1311 23.9192 15.5251 24.3157 13.4074C24.6224 11.7702 24.5496 10.2649 24.0997 8.93259C23.6812 7.69333 22.9493 6.62985 21.9244 5.77146C17.0879 1.7219 7.35332 3.58176 6.36919 9.88522C6.01885 11.5332 6.07622 13.2485 6.53936 14.9878C6.46489 15.3139 6.35918 15.7317 6.24712 16.1611C4.94268 14.6272 4.42461 12.2168 4.94878 9.73679Z"
+											fill="#3A182D" />
+									</g>
+									<defs>
+										<clipPath id="clip0_246_1669">
+											<rect width="32" height="32" fill="white" />
+										</clipPath>
+									</defs>
+								</svg>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="chapters">
+		<div class="wrapper">
+			<div class="chapters-top">
+				<div class="chapters-left">
+					<div class="choes-text">Men's Shoes & Sneakers</div>
+					<span>2348</span>
+				</div>
+				<div class="chapters-right">
+					<div class="list"><a href="#!"><img src="./assets/img/list.svg" alt="list"></a></div>
+					<div class="apps"><a href="#!"><img src="./assets/img/apps.svg" alt="apps"></a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="sorting-panel">
+		<div class="wrapper">
+			<div class="menu">
+				<ul class="menu-left">
+					<li class="click">
+						<span class="click-menu">Product type <svg width="18" height="11" viewBox="0 0 18 11" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path d="M17 1L9 9L1 1" stroke="#14420D" stroke-width="2" />
+							</svg>
+						</span>
+						<ul class="menu-checkbox">
+							<li class="checkbox">
+								<input type="checkbox" id="sneakers">
+								<label for="sneakers"> Sneakers</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="tops">
+								<label for="tops">Tops</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="shorts">
+								<label for="shorts">Shorts</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="hoodies">
+								<label for="hoodies" class="text">Hoodies</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="underwear">
+								<label for="underwear" class="text">Underwear</label>
+							</li>
+						</ul>
+					</li>
+					<li class="click"><span class="click-menu">Size <svg width="18" height="11" viewBox="0 0 18 11"
+								fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M17 1L9 9L1 1" stroke="#14420D" stroke-width="2" />
+							</svg></span>
+						<ul class="menu-checkbox">
+							<li class="checkbox">
+								<input type="checkbox" id="sneakers2">
+								<label for="sneakers2"> Sneakers</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="tops2">
+								<label for="tops2">Tops</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="shorts2">
+								<label for="shorts2">Shorts</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="hoodies2">
+								<label for="hoodies2" class="text">Hoodies</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="underwear2">
+								<label for="underwear2">Underwear</label>
+							</li>
+						</ul>
+					</li>
+					<li class="click"><span class="click-menu">Color <svg width="18" height="11" viewBox="0 0 18 11"
+								fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M17 1L9 9L1 1" stroke="#14420D" stroke-width="2" />
+							</svg></span>
+						<ul class="menu-checkbox">
+							<li class="checkbox">
+								<input type="checkbox" id="sneakers3">
+								<label for="sneakers3"> Sneakers</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="tops3">
+								<label for="tops3">Tops</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="shorts3">
+								<label for="shorts3">Shorts</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="hoodies3">
+								<label for="hoodies3" class="text">Hoodies</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="underwear3">
+								<label for="underwear3" class="text">Underwear</label>
+							</li>
+						</ul>
+					</li>
+					<li class="click"><span class="click-menu">Collection <svg width="18" height="11" viewBox="0 0 18 11"
+								fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M17 1L9 9L1 1" stroke="#14420D" stroke-width="2" />
+							</svg></span>
+						<ul class="menu-checkbox">
+							<li class="checkbox">
+								<input type="checkbox" id="sneakers4">
+								<label for="sneakers4"> Sneakers</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="tops4">
+								<label for="tops4">Tops</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="shorts4">
+								<label for="shorts4">Shorts</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="hoodies4">
+								<label for="hoodies4" class="text">Hoodies</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="underwear4">
+								<label for="underwear4" class="text">Underwear</label>
+							</li>
+						</ul>
+					</li>
+					<li class="click"><span class="click-menu">Price <svg width="18" height="11" viewBox="0 0 18 11"
+								fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M17 1L9 9L1 1" stroke="#14420D" stroke-width="2" />
+							</svg></span>
+						<ul class="menu-checkbox">
+							<li class="checkbox">
+								<input type="checkbox" id="sneakers5">
+								<label for="sneakers5"> Sneakers</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="tops5">
+								<label for="tops5">Tops</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="shorts5">
+								<label for="shorts5">Shorts</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="hoodies5">
+								<label for="hoodies5" class="text">Hoodies</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="underwear5">
+								<label for="underwear5" class="text">Underwear</label>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="menu-left menu-right">
+					<li class="sort click">
+						<span class="click-menu">Sort by <svg width="18" height="11" viewBox="0 0 18 11" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path d="M17 1L9 9L1 1" stroke="#14420D" stroke-width="2" />
+							</svg>
+						</span>
+						<ul class="menu-checkbox menu-checkbox-right">
+							<li class="checkbox">
+								<input type="checkbox" id="sneakers6">
+								<label for="sneakers6">Sneakers</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="tops6">
+								<label for="tops6">Tops</label>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="rew">
+		<div class="wrapper">
+			<div class="top-mobile">
+				<div class="menu">menu</div>
+			</div>
+		</div>
+		<div class="open-slide-menu">
+			<div class="slider-top">
+				<div class="closes"></div>
+			</div>
+			<div class="block-mobile">
+				<ul class="menu-left">
+					<li class="click">
+						<span class="click-menu">Product type <svg width="18" height="11" viewBox="0 0 18 11" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path d="M17 1L9 9L1 1" stroke="#14420D" stroke-width="2" />
+							</svg>
+						</span>
+						<ul class="menu-checkbox">
+							<li class="checkbox">
+								<input type="checkbox" id="sneakers1">
+								<label for="sneakers1"> Sneakers</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="tops1">
+								<label for="tops1">Tops</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="shorts1">
+								<label for="shorts1">Shorts</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="hoodies1">
+								<label for="hoodies1">Hoodies</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="underwear1">
+								<label for="underwear1">Underwear</label>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="menu-left">
+					<li class="click">
+						<span class="click-menu">Size <svg width="18" height="11" viewBox="0 0 18 11" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path d="M17 1L9 9L1 1" stroke="#14420D" stroke-width="2" />
+							</svg>
+						</span>
+						<ul class="menu-checkbox">
+							<li class="checkbox">
+								<input type="checkbox" id="sneakers7">
+								<label for="sneakers7"> Sneakers</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="tops8">
+								<label for="tops8">Tops</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="shorts9">
+								<label for="shorts9">Shorts</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="hoodies10">
+								<label for="hoodies10">Hoodies</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="underwear11">
+								<label for="underwear11">Underwear</label>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="menu-left">
+					<li class="click">
+						<span class="click-menu">Color <svg width="18" height="11" viewBox="0 0 18 11" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path d="M17 1L9 9L1 1" stroke="#14420D" stroke-width="2" />
+							</svg>
+						</span>
+						<ul class="menu-checkbox">
+							<li class="checkbox">
+								<input type="checkbox" id="sneakers12">
+								<label for="sneakers12"> Sneakers</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="tops13">
+								<label for="tops13">Tops</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="shorts14">
+								<label for="shorts14">Shorts</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="hoodies15">
+								<label for="hoodies15" class="text">Hoodies</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="underwear16">
+								<label for="underwear16" class="text">Underwear</label>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="menu-left">
+					<li class="click">
+						<span class="click-menu">Collection <svg width="18" height="11" viewBox="0 0 18 11" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path d="M17 1L9 9L1 1" stroke="#14420D" stroke-width="2" />
+							</svg>
+						</span>
+						<ul class="menu-checkbox">
+							<li class="checkbox">
+								<input type="checkbox" id="sneakers17">
+								<label for="sneakers17"> Sneakers</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="tops18">
+								<label for="tops18">Tops</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="shorts19">
+								<label for="shorts19">Shorts</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="hoodies20">
+								<label for="hoodies20">Hoodies</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="underwear21">
+								<label for="underwear21">Underwear</label>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="menu-left">
+					<li class="click">
+						<span class="click-menu">Price <svg width="18" height="11" viewBox="0 0 18 11" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path d="M17 1L9 9L1 1" stroke="#14420D" stroke-width="2" />
+							</svg>
+						</span>
+						<ul class="menu-checkbox">
+							<li class="checkbox">
+								<input type="checkbox" id="sneakers22">
+								<label for="sneakers22"> Sneakers</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="tops23">
+								<label for="tops23">Tops</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="shorts24">
+								<label for="shorts24">Shorts</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="hoodies25">
+								<label for="hoodies25">Hoodies</label>
+							</li>
+							<li class="checkbox">
+								<input type="checkbox" id="underwear26">
+								<label for="underwear26" class="text">Underwear</label>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="product">
+		<div class="wrapper">
+			<div class="product-content">
+				<div class="product-card">
+					<div class="product">
+						<a href="#!"><img src="./assets/img/bestsellers.png" alt="bestsellers"></a>
+						<a href="#!"><svg width="28" height="24" viewBox="0 0 28 24" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M14.7071 22.4853L24.8361 12.3563C27.3249 9.86747 27.6921 5.77302 25.3369 3.15748C24.7469 2.50044 24.0293 1.97048 23.2278 1.59995C22.4262 1.22942 21.5576 1.02609 20.6749 1.00235C19.7922 0.978612 18.9139 1.13497 18.0936 1.46189C17.2733 1.78881 16.5282 2.27943 15.9038 2.90381L14 4.80761L12.3563 3.16387C9.86747 0.675068 5.77302 0.307884 3.15748 2.66313C2.50044 3.25309 1.97048 3.97072 1.59995 4.77225C1.22942 5.57379 1.02609 6.44241 1.00235 7.32512C0.978612 8.20784 1.13497 9.08613 1.46189 9.90642C1.78881 10.7267 2.27943 11.4718 2.90381 12.0962L13.2929 22.4853C13.4804 22.6728 13.7348 22.7782 14 22.7782C14.2652 22.7782 14.5196 22.6728 14.7071 22.4853V22.4853Z"
+									stroke="#3A182D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</a>
+					</div>
+					<div class="text"><a href="#!">Aeon Runner</a></div>
+					<div class="bag-prise">
+						<div class="prise">$ 255 <span>300</span></div>
+						<div class="bag"><a href="#!"><img src="./assets/img/bag.svg" alt="bag"></a></div>
+					</div>
+				</div>
+				<div class="product-card">
+					<div class="product">
+						<a href="#!"><img src="./assets/img/bestsellers.png" alt="bestsellers"></a>
+						<a href="#!"><svg width="28" height="24" viewBox="0 0 28 24" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M14.7071 22.4853L24.8361 12.3563C27.3249 9.86747 27.6921 5.77302 25.3369 3.15748C24.7469 2.50044 24.0293 1.97048 23.2278 1.59995C22.4262 1.22942 21.5576 1.02609 20.6749 1.00235C19.7922 0.978612 18.9139 1.13497 18.0936 1.46189C17.2733 1.78881 16.5282 2.27943 15.9038 2.90381L14 4.80761L12.3563 3.16387C9.86747 0.675068 5.77302 0.307884 3.15748 2.66313C2.50044 3.25309 1.97048 3.97072 1.59995 4.77225C1.22942 5.57379 1.02609 6.44241 1.00235 7.32512C0.978612 8.20784 1.13497 9.08613 1.46189 9.90642C1.78881 10.7267 2.27943 11.4718 2.90381 12.0962L13.2929 22.4853C13.4804 22.6728 13.7348 22.7782 14 22.7782C14.2652 22.7782 14.5196 22.6728 14.7071 22.4853V22.4853Z"
+									stroke="#3A182D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</a>
+					</div>
+					<div class="text"><a href="#!">Aeon Runner</a></div>
+					<div class="bag-prise">
+						<div class="prise">$ 255 <span></span></div>
+						<div class="bag"><a href="#!"><img src="./assets/img/bag.svg" alt="bag"></a></div>
+					</div>
+				</div>
+				<div class="product-card">
+					<div class="product">
+						<a href="#!"><img src="./assets/img/bestsellers.png" alt="bestsellers"></a>
+						<a href="#!"><svg width="28" height="24" viewBox="0 0 28 24" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M14.7071 22.4853L24.8361 12.3563C27.3249 9.86747 27.6921 5.77302 25.3369 3.15748C24.7469 2.50044 24.0293 1.97048 23.2278 1.59995C22.4262 1.22942 21.5576 1.02609 20.6749 1.00235C19.7922 0.978612 18.9139 1.13497 18.0936 1.46189C17.2733 1.78881 16.5282 2.27943 15.9038 2.90381L14 4.80761L12.3563 3.16387C9.86747 0.675068 5.77302 0.307884 3.15748 2.66313C2.50044 3.25309 1.97048 3.97072 1.59995 4.77225C1.22942 5.57379 1.02609 6.44241 1.00235 7.32512C0.978612 8.20784 1.13497 9.08613 1.46189 9.90642C1.78881 10.7267 2.27943 11.4718 2.90381 12.0962L13.2929 22.4853C13.4804 22.6728 13.7348 22.7782 14 22.7782C14.2652 22.7782 14.5196 22.6728 14.7071 22.4853V22.4853Z"
+									stroke="#3A182D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</a>
+					</div>
+					<div class="text"><a href="#!">Aeon Runner</a></div>
+					<div class="bag-prise">
+						<div class="prise">$ 255 <span></span></div>
+						<div class="bag"><a href="#!"><img src="./assets/img/bag.svg" alt="bag"></a></div>
+					</div>
+				</div>
+				<div class="product-card">
+					<div class="product">
+						<a href="#!"><img src="./assets/img/bestsellers.png" alt="bestsellers"></a>
+						<a href="#!"><svg width="28" height="24" viewBox="0 0 28 24" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M14.7071 22.4853L24.8361 12.3563C27.3249 9.86747 27.6921 5.77302 25.3369 3.15748C24.7469 2.50044 24.0293 1.97048 23.2278 1.59995C22.4262 1.22942 21.5576 1.02609 20.6749 1.00235C19.7922 0.978612 18.9139 1.13497 18.0936 1.46189C17.2733 1.78881 16.5282 2.27943 15.9038 2.90381L14 4.80761L12.3563 3.16387C9.86747 0.675068 5.77302 0.307884 3.15748 2.66313C2.50044 3.25309 1.97048 3.97072 1.59995 4.77225C1.22942 5.57379 1.02609 6.44241 1.00235 7.32512C0.978612 8.20784 1.13497 9.08613 1.46189 9.90642C1.78881 10.7267 2.27943 11.4718 2.90381 12.0962L13.2929 22.4853C13.4804 22.6728 13.7348 22.7782 14 22.7782C14.2652 22.7782 14.5196 22.6728 14.7071 22.4853V22.4853Z"
+									stroke="#3A182D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</a>
+					</div>
+					<div class="text"><a href="#!">Aeon Runner</a></div>
+					<div class="bag-prise">
+						<div class="prise">$ 255 <span></span></div>
+						<div class="bag"><a href="#!"><img src="./assets/img/bag.svg" alt="bag"></a></div>
+					</div>
+				</div>
+				<div class="product-card">
+					<div class="product">
+						<a href="#!"><img src="./assets/img/bestsellers.png" alt="bestsellers"></a>
+						<a href="#!"><svg width="28" height="24" viewBox="0 0 28 24" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M14.7071 22.4853L24.8361 12.3563C27.3249 9.86747 27.6921 5.77302 25.3369 3.15748C24.7469 2.50044 24.0293 1.97048 23.2278 1.59995C22.4262 1.22942 21.5576 1.02609 20.6749 1.00235C19.7922 0.978612 18.9139 1.13497 18.0936 1.46189C17.2733 1.78881 16.5282 2.27943 15.9038 2.90381L14 4.80761L12.3563 3.16387C9.86747 0.675068 5.77302 0.307884 3.15748 2.66313C2.50044 3.25309 1.97048 3.97072 1.59995 4.77225C1.22942 5.57379 1.02609 6.44241 1.00235 7.32512C0.978612 8.20784 1.13497 9.08613 1.46189 9.90642C1.78881 10.7267 2.27943 11.4718 2.90381 12.0962L13.2929 22.4853C13.4804 22.6728 13.7348 22.7782 14 22.7782C14.2652 22.7782 14.5196 22.6728 14.7071 22.4853V22.4853Z"
+									stroke="#3A182D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</a>
+					</div>
+					<div class="text"><a href="#!">Aeon Runner</a></div>
+					<div class="bag-prise">
+						<div class="prise">$ 255 <span></span></div>
+						<div class="bag"><a href="#!"><img src="./assets/img/bag.svg" alt="bag"></a></div>
+					</div>
+				</div>
+				<div class="product-card">
+					<div class="product">
+						<a href="#!"><img src="./assets/img/bestsellers.png" alt="bestsellers"></a>
+						<a href="#!"><svg width="28" height="24" viewBox="0 0 28 24" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M14.7071 22.4853L24.8361 12.3563C27.3249 9.86747 27.6921 5.77302 25.3369 3.15748C24.7469 2.50044 24.0293 1.97048 23.2278 1.59995C22.4262 1.22942 21.5576 1.02609 20.6749 1.00235C19.7922 0.978612 18.9139 1.13497 18.0936 1.46189C17.2733 1.78881 16.5282 2.27943 15.9038 2.90381L14 4.80761L12.3563 3.16387C9.86747 0.675068 5.77302 0.307884 3.15748 2.66313C2.50044 3.25309 1.97048 3.97072 1.59995 4.77225C1.22942 5.57379 1.02609 6.44241 1.00235 7.32512C0.978612 8.20784 1.13497 9.08613 1.46189 9.90642C1.78881 10.7267 2.27943 11.4718 2.90381 12.0962L13.2929 22.4853C13.4804 22.6728 13.7348 22.7782 14 22.7782C14.2652 22.7782 14.5196 22.6728 14.7071 22.4853V22.4853Z"
+									stroke="#3A182D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</a>
+					</div>
+					<div class="text"><a href="#!">Aeon Runner</a></div>
+					<div class="bag-prise">
+						<div class="prise">$ 255 <span></span></div>
+						<div class="bag"><a href="#!"><img src="./assets/img/bag.svg" alt="bag"></a></div>
+					</div>
+				</div>
+				<div class="product-card">
+					<div class="product">
+						<a href="#!"><img src="./assets/img/bestsellers.png" alt="bestsellers"></a>
+						<a href="#!"><svg width="28" height="24" viewBox="0 0 28 24" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M14.7071 22.4853L24.8361 12.3563C27.3249 9.86747 27.6921 5.77302 25.3369 3.15748C24.7469 2.50044 24.0293 1.97048 23.2278 1.59995C22.4262 1.22942 21.5576 1.02609 20.6749 1.00235C19.7922 0.978612 18.9139 1.13497 18.0936 1.46189C17.2733 1.78881 16.5282 2.27943 15.9038 2.90381L14 4.80761L12.3563 3.16387C9.86747 0.675068 5.77302 0.307884 3.15748 2.66313C2.50044 3.25309 1.97048 3.97072 1.59995 4.77225C1.22942 5.57379 1.02609 6.44241 1.00235 7.32512C0.978612 8.20784 1.13497 9.08613 1.46189 9.90642C1.78881 10.7267 2.27943 11.4718 2.90381 12.0962L13.2929 22.4853C13.4804 22.6728 13.7348 22.7782 14 22.7782C14.2652 22.7782 14.5196 22.6728 14.7071 22.4853V22.4853Z"
+									stroke="#3A182D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</a>
+					</div>
+					<div class="text"><a href="#!">Aeon Runner</a></div>
+					<div class="bag-prise">
+						<div class="prise">$ 255 <span></span></div>
+						<div class="bag"><a href="#!"><img src="./assets/img/bag.svg" alt="bag"></a></div>
+					</div>
+				</div>
+				<div class="product-card">
+					<div class="product">
+						<a href="#!"><img src="./assets/img/bestsellers.png" alt="bestsellers"></a>
+						<a href="#!"><svg width="28" height="24" viewBox="0 0 28 24" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M14.7071 22.4853L24.8361 12.3563C27.3249 9.86747 27.6921 5.77302 25.3369 3.15748C24.7469 2.50044 24.0293 1.97048 23.2278 1.59995C22.4262 1.22942 21.5576 1.02609 20.6749 1.00235C19.7922 0.978612 18.9139 1.13497 18.0936 1.46189C17.2733 1.78881 16.5282 2.27943 15.9038 2.90381L14 4.80761L12.3563 3.16387C9.86747 0.675068 5.77302 0.307884 3.15748 2.66313C2.50044 3.25309 1.97048 3.97072 1.59995 4.77225C1.22942 5.57379 1.02609 6.44241 1.00235 7.32512C0.978612 8.20784 1.13497 9.08613 1.46189 9.90642C1.78881 10.7267 2.27943 11.4718 2.90381 12.0962L13.2929 22.4853C13.4804 22.6728 13.7348 22.7782 14 22.7782C14.2652 22.7782 14.5196 22.6728 14.7071 22.4853V22.4853Z"
+									stroke="#3A182D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</a>
+					</div>
+					<div class="text"><a href="#!">Aeon Runner</a></div>
+					<div class="bag-prise">
+						<div class="prise">$ 255 <span></span></div>
+						<div class="bag"><a href="#!"><img src="./assets/img/bag.svg" alt="bag"></a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="catalog-vertical-card">
+		<div class="wrapper">
+			<div class="catalog-general">
+				<div class="catalog-left">
+					<div class="images-catalog"><img src="./assets/img/spase-run.png" alt="images"></div>
+					<div class="description">
+						<div class="catalog-title">Space Run</div>
+						<p>The design of the Marathon Runner is inspired by running shoes throughout the 90’s with the
+							addition
+							of an exaggerated sole. The upper is made using leather and a wide-weave mesh fabric, protected by
+							a
+							PU transfer. Detailing features digitally printed graphics in contrasting colours and reflective
+							webbing.
+						</p>
+						<div class="black">
+							Tax and VAT might be added at custom clearance
+							SKU: 93013
+							Color: White/Black/Orange
+						</div>
+					</div>
+				</div>
+				<div class="catalog-right">
+					<div class="prises">
+						<div class="prise">$ 370</div>
+						<div class="pise-red">400</div>
+					</div>
+					<div class="bag-ico">
+						<a href="#!"><img src="./assets/img/bag.svg" alt="bag"></a>
+						<a href="#!"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M16.7071 26.4853L26.8361 16.3563C29.3249 13.8675 29.6921 9.77302 27.3369 7.15748C26.7469 6.50044 26.0293 5.97048 25.2278 5.59995C24.4262 5.22942 23.5576 5.02609 22.6749 5.00235C21.7922 4.97861 20.9139 5.13497 20.0936 5.46189C19.2733 5.78881 18.5282 6.27943 17.9038 6.90381L16 8.80761L14.3563 7.16387C11.8675 4.67507 7.77302 4.30788 5.15748 6.66313C4.50044 7.25309 3.97048 7.97072 3.59995 8.77225C3.22942 9.57379 3.02609 10.4424 3.00235 11.3251C2.97861 12.2078 3.13497 13.0861 3.46189 13.9064C3.78881 14.7267 4.27943 15.4718 4.90381 16.0962L15.2929 26.4853C15.4804 26.6728 15.7348 26.7782 16 26.7782C16.2652 26.7782 16.5196 26.6728 16.7071 26.4853V26.4853Z"
+									stroke="#3A182D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="catalog-general">
+				<div class="catalog-left">
+					<div class="images-catalog"><img src="./assets/img/white.png" alt="images"></div>
+					<div class="description">
+						<div class="catalog-title">Vapor Max</div>
+						<p>The Orbit Sneaker presents a future classic set on a platform customer rubber sole. The panels keep
+							things interesting with a mix of leather and suede in contrasting colorways, detailed with a gold
+							Axel Arigato logo stamp written in cursive.
+						</p>
+						<div class="black">
+							Tax and VAT might be added at custom clearance
+							SKU: 113567
+							Color: White/Black
+						</div>
+					</div>
+				</div>
+				<div class="catalog-right">
+					<div class="prises">
+						<div class="prise">$ 370</div>
+					</div>
+					<div class="bag-ico">
+						<a href="#!"><img src="./assets/img/bags.svg" alt="bag"></a>
+						<a href="#!"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M16.7071 26.4853L26.8361 16.3563C29.3249 13.8675 29.6921 9.77302 27.3369 7.15748C26.7469 6.50044 26.0293 5.97048 25.2278 5.59995C24.4262 5.22942 23.5576 5.02609 22.6749 5.00235C21.7922 4.97861 20.9139 5.13497 20.0936 5.46189C19.2733 5.78881 18.5282 6.27943 17.9038 6.90381L16 8.80761L14.3563 7.16387C11.8675 4.67507 7.77302 4.30788 5.15748 6.66313C4.50044 7.25309 3.97048 7.97072 3.59995 8.77225C3.22942 9.57379 3.02609 10.4424 3.00235 11.3251C2.97861 12.2078 3.13497 13.0861 3.46189 13.9064C3.78881 14.7267 4.27943 15.4718 4.90381 16.0962L15.2929 26.4853C15.4804 26.6728 15.7348 26.7782 16 26.7782C16.2652 26.7782 16.5196 26.6728 16.7071 26.4853Z"
+									fill="#3A182D" stroke="#3A182D" stroke-width="2" stroke-linecap="round"
+									stroke-linejoin="round" />
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="description-shoes">
+		<div class="wrapper">
+			<div class="distription">
+				<div class="description-left">
+					<div class="description-title">Men’s Designer Shoes At EXPI</div>
+					<p>When you choose a pair of men’s shoes from EXPI , you know you’ll be stepping out in style. The right
+						shoes provide a perfect punctuation to your outfit, and there are a few styles that are essential in
+						every wardrobe. Each of these basics, however, have many variations that can help you make your own
+						personal style statement.
+					</p>
+					<div class="description-title">New Men’s Shoes? Make Them Count</div>
+					<p>Tradition advises that your shoes match your belt—and we agree. With a wide selection of men’s belts
+						in
+						leather and logo prints, coordinating will be a cinch. Wear them over a pair of our men’s pants and
+						denim
+						or men’s shorts to polish up your look. Another must-have in any man’s closet is a timepiece. Check
+						out
+						our men’s smartwatches for the most high-tech versions of the classic accessory. Round out your
+						wardrobe
+						with one of our men’s duffle bags. Ideal for busy days and getaways, these bags will make any journey
+						easier.
+					</p>
+				</div>
+				<div class="description-images"><img src="./assets/img/men-shoes.png" alt="men-shoes"></div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="wrapper">
+			<div class="footer-top">
+				<div class="footer-logo"><a href="#!"><svg width="80" height="29" viewBox="0 0 80 29" fill="none"
+							xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M0.8 29H19.2V25.06H4.98V16.16H16.8V12.22H4.98V4.14H19.2V0.199999H0.8V29ZM21.6031 29H26.7431L34.0031 17.98L41.2431 29H46.3631L36.5631 14.42L46.1231 0.199999H40.9831L34.0031 10.88L26.9831 0.199999H21.8631L31.4231 14.42L21.6031 29ZM49.55 29H53.73V18.66H61.19C61.4567 18.66 61.7967 18.6467 62.21 18.62C62.6367 18.5933 63.0367 18.5533 63.41 18.5C65.81 18.1133 67.61 17.0867 68.81 15.42C70.0233 13.7533 70.63 11.7533 70.63 9.42C70.63 7.08667 70.03 5.08667 68.83 3.42C67.63 1.75333 65.8233 0.733332 63.41 0.359999C63.0367 0.293333 62.6433 0.253332 62.23 0.239998C61.8167 0.213332 61.47 0.199999 61.19 0.199999H49.55V29ZM53.73 14.7V4.14H61.03C61.2967 4.14 61.59 4.15333 61.91 4.18C62.2433 4.20667 62.5567 4.26 62.85 4.34C64.13 4.63333 65.0367 5.28666 65.57 6.3C66.1033 7.31333 66.37 8.35333 66.37 9.42C66.37 10.4733 66.1033 11.5133 65.57 12.54C65.0367 13.5533 64.13 14.2133 62.85 14.52C62.5567 14.5867 62.2433 14.6333 61.91 14.66C61.59 14.6867 61.2967 14.7 61.03 14.7H53.73ZM75.0281 29H79.2081V0.199999H75.0281V29Z"
+								fill="#3A182D" />
+						</svg>
+					</a>
+					<div class="line"></div>
+				</div>
+				<div class="footer-form">
+					<div class="footer-form-text">
+						<span>NEWSLETTER</span>
+						<p>Sign up for latst news sales and updatest</p>
+					</div>
+					<form>
+						<input type="text" placeholder="EMAIL ADRESS">
+						<button><svg width="15" height="24" viewBox="0 0 15 24" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path d="M2 2L12 12L2 22" stroke="#14420D" stroke-width="3" />
+							</svg>
+						</button>
+					</form>
+				</div>
+				<div class="soc-seti">
+					<div class="seti">
+						<a href="#!"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<g style="mix-blend-mode:darken">
+									<rect width="32" height="32" fill="white" />
+									<path
+										d="M4.6875 32H15.125V20.625H11.375V16.875H15.125V12.1875C15.125 9.60278 17.2278 7.5 19.8125 7.5H24.5V11.25H20.75C19.7161 11.25 18.875 12.0911 18.875 13.125V16.875H24.3308L23.7058 20.625H18.875V32H27.3125C29.8972 32 32 29.8972 32 27.3125V4.6875C32 2.10278 29.8972 0 27.3125 0H4.6875C2.10278 0 0 2.10278 0 4.6875V27.3125C0 29.8972 2.10278 32 4.6875 32ZM1.875 4.6875C1.875 3.13672 3.13672 1.875 4.6875 1.875H27.3125C28.8633 1.875 30.125 3.13672 30.125 4.6875V27.3125C30.125 28.8633 28.8633 30.125 27.3125 30.125H20.75V22.5H25.2942L26.5442 15H20.75V13.125H26.375V5.625H19.8125C16.1938 5.625 13.25 8.56885 13.25 12.1875V15H9.5V22.5H13.25V30.125H4.6875C3.13672 30.125 1.875 28.8633 1.875 27.3125V4.6875Z"
+										fill="#3A182D" />
+								</g>
+							</svg>
+						</a>
+					</div>
+					<div class="seti">
+						<a href="#!"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<g style="mix-blend-mode:darken">
+									<rect width="32" height="32" fill="white" />
+									<path
+										d="M4.6875 32H27.3125C29.8972 32 32 29.8972 32 27.3125V4.6875C32 2.10278 29.8972 0 27.3125 0H4.6875C2.10278 0 0 2.10278 0 4.6875V27.3125C0 29.8972 2.10278 32 4.6875 32ZM1.875 4.6875C1.875 3.13672 3.13672 1.875 4.6875 1.875H27.3125C28.8633 1.875 30.125 3.13672 30.125 4.6875V27.3125C30.125 28.8633 28.8633 30.125 27.3125 30.125H4.6875C3.13672 30.125 1.875 28.8633 1.875 27.3125V4.6875Z"
+										fill="#3A182D" />
+									<path
+										d="M16 24.4375C20.6523 24.4375 24.4375 20.6523 24.4375 16C24.4375 11.3477 20.6523 7.5625 16 7.5625C11.3477 7.5625 7.5625 11.3477 7.5625 16C7.5625 20.6523 11.3477 24.4375 16 24.4375ZM16 9.4375C19.6187 9.4375 22.5625 12.3813 22.5625 16C22.5625 19.6187 19.6187 22.5625 16 22.5625C12.3813 22.5625 9.4375 19.6187 9.4375 16C9.4375 12.3813 12.3813 9.4375 16 9.4375Z"
+										fill="#3A182D" />
+									<path
+										d="M25.375 9.4375C26.9258 9.4375 28.1875 8.17578 28.1875 6.625C28.1875 5.07422 26.9258 3.8125 25.375 3.8125C23.8242 3.8125 22.5625 5.07422 22.5625 6.625C22.5625 8.17578 23.8242 9.4375 25.375 9.4375ZM25.375 5.6875C25.8918 5.6875 26.3125 6.10815 26.3125 6.625C26.3125 7.14185 25.8918 7.5625 25.375 7.5625C24.8582 7.5625 24.4375 7.14185 24.4375 6.625C24.4375 6.10815 24.8582 5.6875 25.375 5.6875Z"
+										fill="#3A182D" />
+								</g>
+							</svg>
+						</a>
+					</div>
+					<div class="seti">
+						<a href="#!"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<g style="mix-blend-mode:darken" clip-path="url(#clip0_246_1669)">
+									<rect width="32" height="32" fill="white" />
+									<path
+										d="M6.25151 18.6445L7.33648 19.3549L7.74688 17.8147C8.47319 15.1071 8.39629 15.2268 8.46904 14.9262C8.4395 14.7575 7.67485 12.7234 8.20732 10.2519L8.21782 10.195C8.94561 5.38986 16.9871 4.082 20.7212 7.20871C22.3321 8.55759 22.9383 10.5818 22.4737 13.0625C22.1402 14.844 21.5579 16.1723 20.6416 17.2429C19.3768 18.7209 17.7859 18.841 16.8436 18.3271C16.4927 18.136 15.7154 17.5608 16.0757 16.3549C16.5911 14.6291 17.5223 12.0298 17.6324 10.1447C17.7305 8.46555 16.7178 7.09885 15.1124 6.74387C13.3228 6.34812 11.2608 7.31394 10.3692 9.56662C9.72759 11.187 9.7293 12.8711 10.3746 14.7129C10.3956 15.1672 9.93316 16.8806 9.56011 18.2629C8.43242 22.4421 6.88774 28.1652 8.39214 31.0796L8.86748 32L9.73565 31.4353C12.2168 29.8222 13.6663 25.1301 14.4607 22.207C16.5521 23.7556 19.5154 23.8862 22.4466 22.4548C27.1521 20.1567 30.2911 14.6728 28.7183 8.56735C26.9654 1.76242 20.1622 -0.875271 13.3099 0.251682C7.66118 1.18039 4.06865 4.83933 3.11504 9.34909C2.3106 13.154 3.57109 16.8896 6.25151 18.6445ZM4.94878 9.73679C5.80059 5.70774 9.03984 2.85324 13.6138 2.10105C19.107 1.19773 25.3467 2.99143 26.9034 9.03488C28.3431 14.6237 25.1761 19.0361 21.6241 20.7707C19.4451 21.8347 16.4839 22.1501 14.7073 19.8442L13.5481 18.3398L13.0594 20.1748C12.4139 22.5957 11.3699 26.7055 9.69292 28.9021C9.36357 26.185 10.5879 21.6472 11.3694 18.7514C12.1155 15.987 12.4083 14.8374 12.1587 14.1372C11.6541 12.7209 11.6387 11.4516 12.1116 10.2563C12.6414 8.91818 13.7713 8.36667 14.7076 8.5737C15.0457 8.64865 15.8252 8.94064 15.7613 10.0354C15.6666 11.6548 14.7623 14.2033 14.2798 15.8186C13.7732 17.5141 14.4273 19.1447 15.9463 19.9729C17.6534 20.9033 20.2161 20.6223 22.0655 18.4616C23.2041 17.1311 23.9192 15.5251 24.3157 13.4074C24.6224 11.7702 24.5496 10.2649 24.0997 8.93259C23.6812 7.69333 22.9493 6.62985 21.9244 5.77146C17.0879 1.7219 7.35332 3.58176 6.36919 9.88522C6.01885 11.5332 6.07622 13.2485 6.53936 14.9878C6.46489 15.3139 6.35918 15.7317 6.24712 16.1611C4.94268 14.6272 4.42461 12.2168 4.94878 9.73679Z"
+										fill="#3A182D" />
+								</g>
+								<defs>
+									<clipPath id="clip0_246_1669">
+										<rect width="32" height="32" fill="white" />
+									</clipPath>
+								</defs>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<ul>
+					<div class="footer-text">Shop</div>
+					<li><a href="#!">Men</a></li>
+					<li><a href="#!">Women</a></li>
+					<li><a href="#!">New collection</a></li>
+					<li><a href="#!">Sale</a></li>
+				</ul>
+				<ul>
+					<div class="footer-text">Company</div>
+					<li><a href="#!">About Us</a></li>
+					<li><a href="#!">Contacts</a></li>
+					<li><a href="#!">FAQ</a></li>
+					<li><a href="#!">Shipping & Returns</a></li>
+				</ul>
+				<ul>
+					<div class="footer-text">Visit Us</div>
+					<li><a href="#!">Copenhagen</a></li>
+					<li><a href="#!">Berlin</a></li>
+					<li><a href="#!">Bergen</a></li>
+					<li><a href="#!">Munichi</a></li>
+					<li><a href="#!">Moskow</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="stroke"></div>
+	</footer>
+	
+	<script src="./assets/js/jquery.js"></script>
+	<script src="./assets/js/slick.js"></script>
+
+	<script src="./assets/js/main.js"></script>
+</body>
+
+</html>

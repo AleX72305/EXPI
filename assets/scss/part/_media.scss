@@ -1,0 +1,834 @@
+
+@media (max-width: 1200px) {
+	.bag .wrapper .bag-content .bag-content-right {
+		padding: 115px 25px;
+	}
+	.product .wrapper .product-content {
+		justify-content: flex-start;
+		margin-right: -20px;
+		margin-left: -20px;
+	}
+
+	.product .wrapper .product-content .product-card {
+		margin-right: 35px;
+		margin-left: 35px;
+	}
+	.wrapper {
+		max-width: 1108px;
+		width: 100%;
+		margin: 0 auto;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.sneakers .wrapper .sneakers-block .sneakers-images img {
+		height: 686px;
+	}
+	.bestsellers .wrapper .hug .category-slider .slide .product-card {
+		margin: 0 auto;
+	}
+	.shop .wrapper .hug .slider .slide .product-card {
+		margin: 0 auto;
+	}
+	.sneakers .wrapper .sneakers-block .sneakers-right p {
+		font-size: 29px;
+	}
+	.description-shoes .wrapper .distription .description-images img {
+		height: 495px;
+	}
+	.arrivals .wrapper .arrivals-block .block-arrival .item-card:nth-child(1) {
+		width: 530px;
+	}
+	.arrivals .wrapper .arrivals-block .block-arrival .item-card:nth-child(2) {
+		width: 250px;
+		height: 250px;
+	}
+	.arrivals .wrapper .arrivals-block .block-arrival .item-card:nth-child(3) {
+		width: 250px;
+		height: 250px;
+	}
+	.arrivals .wrapper .arrivals-block .block-arrival .item-card:nth-child(3) a {
+		padding: 8px 25px;
+	}
+	.arrivals .wrapper .arrivals-block .block-arrival .item-card:nth-child(4) {
+		width: 250px;
+		height: 250px;
+	}
+	.arrivals .wrapper .arrivals-block .block-arrival .item-card:nth-child(4) a {
+		padding: 8px 86px;
+	}
+	.arrivals .wrapper .arrivals-block .block-arrival .item-card:nth-child(5) {
+		width: 545px;
+		order: -1;
+	}
+	.arrivals .wrapper .arrivals-block .block-arrival .item-card:nth-child(6) {
+		width: 250px;
+		height: 250px;
+	}
+	footer .wrapper .footer-top .footer-form .footer-form-text p {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 27px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.bag .wrapper .bag-content .bag-content-left .bag-title {
+		font-size: 37px;
+	}
+	.bag .wrapper .bag-content .bag-content-right {
+		padding: 115px 18px;
+	}
+	.bag .wrapper .bag-content .bag-content-left .bag-product .bag-product-content img {
+		height: 130px;
+	}
+	.bag .wrapper .bag-content .bag-content-left {
+		margin-right: 15px;
+	}
+	.product .wrapper .product-content {
+		margin-right: -20px;
+		margin-left: -20px;
+	}
+	.product .wrapper .product-content .product-card {
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+	.sorting-panel .wrapper .menu .menu-left .click .click-menu:not(:last-child) {
+		margin-right: 0;
+	}
+
+	.orders .wrapper .order .order-left .photo img {
+		width: 635px;
+		height: 450px;
+	}
+	// =======================================================================================
+	.description-shoes .wrapper .distription .description-images img {
+		height: 462px;
+	}
+	.catalog-vertical-card .wrapper .catalog-general .catalog-left .description p {
+		width: 570px;
+	}
+	// arrivals ==================================================================================
+	.arrivals .wrapper .arrivals-block .block-arrival {
+		justify-content: center;
+	}
+	.arrivals .wrapper .arrivals-block .block-arrival .item-card:nth-child(1) {
+		margin-right: 0;
+		margin-bottom: 6px;
+		width: 488px;
+	}
+	.arrivals .wrapper .arrivals-block .block-arrival .item-card:nth-child(2) {
+		width: 245px;
+	}
+	.arrivals .wrapper .arrivals-block .block-arrival .item-card:nth-child(3) {
+		height: 250px;
+		width: 245px;
+	}
+	.arrivals .wrapper .arrivals-block .block-arrival .item-card:nth-child(4) {
+		width: 245px;
+	}
+	.arrivals .wrapper .arrivals-block .block-arrival .item-card:nth-child(5) {
+		width: 488px;
+		margin-right: 1px;
+	}
+	.arrivals .wrapper .arrivals-block .block-arrival .item-card:nth-child(6) {
+		width: 245px;
+	}
+	// bestsellers ===================================================================================
+	.bestsellers .wrapper .hug .category-slider .slide .product-card {
+		max-width: 295px;
+		margin: 0 auto;
+	}
+	.bestsellers .wrapper .hug .category-slider .slide .product-card .product a svg {
+		right: 15px;
+	}
+	// shop ==========================================================================================
+	.shop .wrapper .collection-block .shop-title .shop-collection .collection {
+		left: 230px;
+	}
+	.shop .wrapper .hug .slider .slide .product-card {
+		width: 295px;
+		margin: 0 auto;
+	}
+	.shop .wrapper .collection-block .shop-images {
+		width: 610px;
+	}
+	.shop .wrapper .hug .arrows .next svg {
+		display: none;
+	}
+	.shop .wrapper .hug .arrows .prev svg {
+		display: none;
+	}
+	// footer================================================================================
+	footer .wrapper .footer-top .footer-form .footer-form-text span {
+		font-size: 18px;
+	}
+	footer .wrapper .footer-top .footer-form .footer-form-text p {
+		font-size: 13px;
+	}
+	footer .wrapper .footer-bottom {
+		padding: 10px 0 0px 0;
+	}
+	// =======================================================================================
+}
+
+@media (max-width: 768px) {
+	.sorting-panel {
+		display: none;
+	}
+	.rew {
+		display: block;
+	}
+	.rew .open-slide-menu {
+		max-width: 645px;
+	}
+	.bag .wrapper .bag-content .bag-content-right form .arrow {
+		right: 250px;
+	}
+	.product .wrapper .product-content {
+		display: flex;
+		justify-content: space-between;
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.description-shoes .wrapper .distription .description-images img {
+		width: 730px;
+	}
+	.bag .wrapper .bag-content {
+		display: block;
+	}
+	.bag .wrapper .bag-content .bag-content-left {
+		margin-right: 0;
+		margin-bottom: 30px;
+	}
+	.bag .wrapper .bag-content .bag-content-right .payment .form-card .number-card {
+		justify-content: flex-start;
+	}
+	.bag .wrapper .bag-content .bag-content-right .payment .form-card .number-card .card-block {
+		&:not(:last-child) {
+			padding-right: 20px;
+		}
+	}
+	.bag .wrapper .bag-content {
+		margin-bottom: 30px;
+	}
+
+	.orders .wrapper .order {
+		display: block;
+	}
+	.orders .wrapper .order .order-left .photo img {
+		height: 450px;
+		width: 100%;
+	}
+	.order-left {
+		margin-bottom: 30px;
+	}
+
+	.orders .wrapper .order .order-right {
+		width: 100%;
+	}
+	.orders .wrapper .order .order-right .btn {
+		text-align: center;
+	}
+	.orders .wrapper .order .order-right .order-title {
+		text-align: center;
+	}
+	.bestsellers .wrapper .bestsellers-text {
+		line-height: 45px;
+	}
+	.orders {
+		margin-bottom: 30px;
+	}
+	// =================================================================================================
+	.sorting-panel .wrapper .menu {
+		display: none;
+	}
+	// catalog-vertical-card =================================================================================================
+	.catalog-vertical-card .wrapper .catalog-general .catalog-left .images-catalog img {
+		width: 430px;
+		height: 395px;
+		margin-bottom: 15px;
+	}
+	.catalog-vertical-card .wrapper .catalog-general .catalog-right .prises .prise {
+		margin-right: 15px;
+	}
+	.catalog-vertical-card .wrapper .catalog-general .catalog-left .description .black {
+		line-height: 33px;
+	}
+	.catalog-vertical-card .wrapper .catalog-general .catalog-left {
+		display: block;
+	}
+	.catalog-vertical-card .wrapper .catalog-general {
+		display: block;
+	}
+	.catalog-vertical-card .wrapper .catalog-general .catalog-right .prises {
+		display: flex;
+	}
+	// description-shoes ===============================================================================================
+	.description-shoes .wrapper .distription {
+		display: block;
+		text-align: center;
+	}
+	.description-shoes .wrapper .distription .description-left {
+		width: 745px;
+	}
+	.description-shoes .wrapper .distription .description-left p {
+		margin-bottom: 15px;
+	}
+	.description-shoes {
+		margin-bottom: 60px;
+	}
+	// ===============================================================================================
+	header .header-menu .menu {
+		display: none;
+	}
+	header .rew .menu-mobile {
+		display: block;
+	}
+	header .rew .slide-mobile-menu .block-mobile {
+		text-align: center;
+	}
+	header .header-menu {
+		display: none;
+	}
+	.map-and-text .wrapper .general-map {
+		flex-direction: column;
+	}
+	header .rew .slide-mobile-menu.active {
+		display: block;
+		background-color: #e9ebee;
+	}
+	// =========================================
+	.contact {
+		margin-bottom: 60px;
+	}
+	// sneakers =========================================================================================
+	.sneakers .wrapper .sneakers-block .sneakers-images img {
+		width: 371px;
+		height: 320px;
+	}
+	.sneakers .wrapper .sneakers-block .sneakers-right .sneakers-text {
+		font-size: 50px;
+		margin-left: -287px;
+		margin-bottom: 0;
+		line-height: 55px;
+	}
+	.sneakers .wrapper .sneakers-block .sneakers-right span {
+		font-size: 50px;
+		line-height: 85px;
+	}
+	.sneakers .wrapper .sneakers-block .sneakers-right p {
+		font-size: 11px;
+	}
+	.sneakers .wrapper .sneakers-block .sneakers-right .shop a {
+		font-size: 18px;
+	}
+	.shop {
+		margin-bottom: 0;
+	}
+	// arrivals ===========================================================================================
+	.arrivals .wrapper .arrivals-block .block-arrival {
+		justify-content: center;
+	}
+	.arrivals .wrapper .arrivals-block .block-arrival .item-card:nth-child(1) {
+		margin-bottom: 10px;
+		margin-right: 0;
+		width: 610px;
+	}
+	.arrivals .wrapper .arrivals-block .block-arrival .item-card:nth-child(2) {
+		margin-right: 0;
+	}
+	.arrivals .wrapper .arrivals-block .block-arrival .item-card:nth-child(3) {
+		margin-bottom: 6px;
+		margin-left: 10px;
+		margin-right: 0;
+	}
+	.arrivals .wrapper .arrivals-block .block-arrival .item-card:nth-child(4) {
+		margin-right: 10px;
+	}
+	.arrivals .wrapper .arrivals-block .block-arrival .item-card:nth-child(5) {
+		margin-right: 0;
+		margin-bottom: 10px;
+		order: -1;
+		width: 610px;
+	}
+	.arrivals .wrapper .arrivals-block .block-arrival .item-card:nth-child(6) {
+		margin-right: 0;
+	}
+	// bestsellers =================================================================================
+	.bestsellers .wrapper .bestsellers-text {
+		text-align: center;
+		font-size: 45px;
+	}
+
+	.bestsellers .wrapper .hug .category-slider .slide .product-card {
+		padding-bottom: 25px;
+	}
+
+	// footer ========================================================================================
+	footer .wrapper .footer-form .footer-form-text {
+		display: none;
+	}
+	footer .wrapper .footer-bottom ul:not(:last-child) {
+		margin-right: 160px;
+	}
+	footer .wrapper .footer-bottom {
+		display: none;
+	}
+	footer .stroke {
+		display: none;
+	}
+}
+
+@media (max-width: 480px) {
+	.btn button {
+		width: 100%;
+	}
+	.rew .open-slide-menu.active {
+		top: 200px;
+	}
+	.rew .open-slide-menu .block-mobile ul li {
+		margin-bottom: 22px;
+	}
+	.orders .wrapper .order .order-right .click .menu-checkbox {
+		justify-content: flex-start;
+		margin-right: -6px;
+		margin-left: -6px;
+	}
+	.orders .wrapper .order .order-right .click .menu-checkbox .checkbox {
+		margin-right: 6px;
+		margin-left: 6px;
+	}
+
+	.bag .wrapper .bag-content .bag-content-left .bag-title {
+		text-align: center;
+		font-size: 35px;
+	}
+	.bag .wrapper .bag-content .bag-content-right form input:not(:last-child) {
+		width: 100%;
+	}
+	.bag .wrapper .bag-content .bag-content-right .code input {
+		width: 100%;
+	}
+	.bag .wrapper .bag-content .bag-content-right .payment .form-card .number-card .card-block input {
+		width: 168px;
+	}
+	.bag .wrapper .bag-content .bag-content-right .shipping-block span {
+		width: 100px;
+		text-align: right;
+	}
+	.bag .wrapper .bag-content .bag-content-right .payment .total-prise .runof .subtotal {
+		width: calc(100% - 110px);
+	}
+	.bag .wrapper .bag-content .bag-content-right .payment .total-prise .runof .hipping  {
+		width: calc(100% - 110px);
+	}
+	.bag .wrapper .bag-content .bag-content-right .payment .total-prise .runof .total {
+		width: calc(100% - 110px);
+	}
+	.btn-bag button {
+		width: 100%;
+	}
+	.bag .wrapper .bag-content .bag-content-right .payment .form-card .number-card {
+		width: 100%;
+	}
+	.bag .wrapper .bag-content .bag-content-left .bag-product-right .runner-and-cross {
+		width: 190px;
+	}
+	.bag .wrapper .bag-content .bag-content-right form input {
+		width: 100%;
+	}
+	.bag .wrapper .bag-content .bag-content-right {
+		padding-bottom: 10px;
+	}
+	.bag .wrapper .bag-content .bag-content-right form .new-select {
+		width: 100%;
+	}
+	.bag .wrapper .bag-content .bag-content-right form .new-select__list {
+		width: 100%;
+	}
+	.orders .wrapper .order {
+		display: block;
+	}
+	.orders .wrapper .order .order-left .photo img {
+		// width: 423px;
+		height: 285px;
+		width: 100%;
+	}
+	.order-left {
+		margin-bottom: 30px;
+	}
+
+	.orders .wrapper .order .order-right {
+		width: 100%;
+	}
+	.orders .wrapper .order .order-right .btn {
+		text-align: center;
+	}
+	.orders .wrapper .order .order-right .order-title {
+		text-align: center;
+	}
+	.bestsellers .wrapper .bestsellers-text {
+		line-height: 45px;
+	}
+	.orders {
+		margin-bottom: 30px;
+	}
+	// ===========================================================================================
+	.chapters .wrapper .chapters-top .chapters-left .choes-text {
+		font-size: 21px;
+		line-height: 20px;
+	}
+	.chapters .wrapper .chapters-top {
+		padding: 0;
+	}
+	.chapters .wrapper .chapters-top .chapters-left span {
+		display: none;
+	}
+	// ===============================================================================================
+	.sorting-panel .wrapper .menu {
+		display: none;
+	}
+	// =================================================================================================
+
+	.product .wrapper .product-content .product-card {
+		max-width: 355px;
+		padding-bottom: 35px;
+	}
+	.product .wrapper .product-content .product-card .bag-prise .prise {
+		font-size: 25px;
+	}
+	.product .wrapper .product-content .product-card .product {
+		width: 200px;
+		height: 200px;
+	}
+	.product .wrapper .product-content .product-card {
+		max-width: 200px;
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.product .wrapper .product-content .product-card .product a img {
+		width: 200px;
+		height: 200px;
+		padding-bottom: 11px;
+	}
+	.product .wrapper .product-content {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	// catalog-vertical-card ===================================================================================================
+	.catalog-vertical-card .wrapper .catalog-general .catalog-left .images-catalog {
+		padding-right: 0;
+	}
+	.catalog-vertical-card .wrapper .catalog-general .catalog-left .images-catalog img {
+		height: 345px;
+		width: 353px;
+		margin-bottom: 15px;
+	}
+	.catalog-vertical-card .wrapper .catalog-general .catalog-right .prises {
+		display: flex;
+	}
+	.catalog-vertical-card .wrapper .catalog-general .catalog-left {
+		display: block;
+	}
+	.catalog-vertical-card .wrapper .catalog-general {
+		display: block;
+	}
+	.catalog-vertical-card .wrapper .catalog-general .catalog-left .description .catalog-title {
+		text-align: center;
+	}
+	.catalog-vertical-card .wrapper .catalog-general .catalog-left .description .black {
+		font-size: 16px;
+		line-height: 23px;
+		margin-bottom: 15px;
+	}
+	.catalog-vertical-card .wrapper .catalog-general .catalog-left .description p {
+		font-size: 16px;
+		line-height: 23px;
+		padding-bottom: 25px;
+		width: 100%;
+	}
+	.description-shoes .wrapper .distription .description-left {
+		width: 100%;
+	}
+	.catalog-vertical-card .wrapper .catalog-general .catalog-right .prises .prise {
+		font-size: 25px;
+		padding-right: 10px;
+	}
+	.catalog-vertical-card .wrapper .catalog-general .catalog-right .prises .pise-red {
+		font-size: 25px;
+	}
+	// description =============================================================================================
+	.description-shoes .wrapper .distription .description-left .description-title {
+		font-size: 23px;
+		line-height: 27px;
+		text-align: center;
+	}
+	.description-shoes .wrapper .distription .description-left p {
+		font-size: 16px;
+		line-height: 23px;
+	}
+	.description-shoes .wrapper .distription .description-images img {
+		height: 305px;
+	}
+	.description-shoes .wrapper .distription {
+		display: block;
+	}
+	.description-shoes {
+		margin-bottom: 15px;
+	}
+
+	// contact ================================================================================================
+	.contact .wrapper .contact-text {
+		text-align: center;
+	}
+	.contact .wrapper .contact-content ul .contact-title {
+		font-size: 24px;
+	}
+	.contact .wrapper .contact-content {
+		display: block;
+		text-align: center;
+	}
+	.contact .wrapper .contact-content ul {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.contact {
+		margin-bottom: 55px;
+	}
+	// ==========================================================================
+	// ==========================================================================
+	header .rew .menu-mobile {
+		display: block;
+	}
+	header .rew .slide-mobile-menu .block-mobile {
+		text-align: center;
+	}
+	header .header-menu {
+		display: none;
+	}
+	.map-and-text .wrapper .general-map {
+		flex-direction: column;
+	}
+	header .rew .slide-mobile-menu.active {
+		display: block;
+		background-color: #e9ebee;
+	}
+
+	// sneakers===============================================================================================
+
+	.sneakers .wrapper .sneakers-block .sneakers-images img {
+		width: 445px;
+		height: 250px;
+	}
+	.sneakers .wrapper .sneakers-block .sneakers-right .sneakers-text {
+		display: none;
+	}
+	.sneakers .wrapper .sneakers-block .sneakers-right span {
+		display: none;
+	}
+	.sneakers .wrapper .sneakers-block .sneakers-right .shop {
+		display: flex;
+		align-items: center;
+		right: 103px;
+		top: -80px;
+		color: #fff;
+	}
+	.sneakers .wrapper .sneakers-block .sneakers-right .shop a {
+		color: #fff;
+	}
+	.sneakers .wrapper .sneakers-block .sneakers-right p {
+		margin-left: -433px;
+		font-size: 18px;
+		text-align: center;
+		color: #fff;
+	}
+	.sneakers {
+		margin-bottom: 30px;
+	}
+	// arrivals ======================================================================================
+	.arrivals .wrapper .arrivals-block .block-arrival {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-bottom: 10px;
+	}
+	.arrivals .wrapper .arrivals-block .block-arrival .item-card:nth-child(1) {
+		width: 300px;
+		height: 200px;
+		margin-bottom: 10px;
+	}
+	.arrivals .wrapper .arrivals-block .block-arrival .item-card:nth-child(1) a {
+		text-align: center;
+	}
+	.arrivals .wrapper .arrivals-block .block-arrival .item-card:nth-child(2) {
+		height: 200px;
+		margin-bottom: 10px;
+	}
+	.arrivals .wrapper .arrivals-block .block-arrival .item-card:nth-child(2) a {
+		display: flex;
+	}
+	.arrivals .wrapper .arrivals-block .block-arrival .item-card:nth-child(3) {
+		margin-bottom: 10px;
+		height: 200px;
+		margin-left: 0;
+	}
+	.arrivals .wrapper .arrivals-block .block-arrival .item-card:nth-child(4) {
+		height: 200px;
+		margin-bottom: 10px;
+		margin-right: 0;
+	}
+	.arrivals .wrapper .arrivals-block .block-arrival .item-card:nth-child(5) {
+		height: 200px;
+		width: 300px;
+		margin-bottom: 10px;
+	}
+	.arrivals .wrapper .arrivals-block .block-arrival .item-card:nth-child(6) {
+		height: 200px;
+	}
+	.arrivals {
+		margin-bottom: 30px;
+	}
+	// bestsellers=======================================================================================
+	.bestsellers .wrapper .bestsellers-text {
+		font-size: 40px;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.bestsellers .wrapper .hug .category-slider .slide .product-card {
+		width: 205px;
+		height: 355px;
+		margin: 0 auto;
+	}
+	.bestsellers .wrapper .hug .category-slider .slide .product-card .product a img {
+		height: 260px;
+		padding-bottom: 10px;
+	}
+	.bestsellers .wrapper .hug .category-slider .slide .product-card .text a {
+		font-size: 18px;
+	}
+	.bestsellers .wrapper .hug .category-slider .slide .product-card .bag-prise .prise {
+		font-size: 20px;
+	}
+	.bestsellers .wrapper .hug .category-slider .slide .product-card .product a svg {
+		right: 15px;
+	}
+	.bestsellers .wrapper .hug .slick-dots li {
+		width: 50px;
+	}
+	.slick-dots li button {
+		width: 0;
+		height: 0;
+	}
+	.bestsellers .wrapper .hug .slider-navigation .next {
+		display: none;
+	}
+	.bestsellers .wrapper .hug .slider-navigation .prev {
+		display: none;
+	}
+	.bestsellers .wrapper .hug .slick-dots li button::before {
+		width: 50px;
+	}
+	.bestsellers {
+		margin-bottom: 50px;
+	}
+	// shop ================================================================================================
+	.shop .wrapper .collection-block .shop-title .shop-collection .rouge-bee-bird {
+		display: none;
+	}
+	.shop .wrapper .collection-block .shop-title .shop-collection .collection {
+		font-size: 35px;
+		left: 115px;
+	}
+	.shop .wrapper .collection-block .shop-images img {
+		width: 445px;
+		height: 250px;
+	}
+	.shop .wrapper .collection-block .shop-title .shop-collection {
+		margin-bottom: 80px;
+	}
+	.shop .wrapper .collection-block .shop-title a {
+		padding-left: 160px;
+		position: absolute;
+		color: #fff;
+	}
+	.shop .wrapper .collection-block {
+		padding-bottom: 30px;
+	}
+	.shop .wrapper .hug .slider .slide .product-card .product a svg {
+		right: 15px;
+	}
+	.shop .wrapper .hug .slider .slide .product-card {
+		width: 205px;
+		height: 355px;
+		margin: 0 auto;
+	}
+	.shop .wrapper .hug .slider .slide .product-card .product a img {
+		height: 260px;
+		padding-bottom: 10px;
+	}
+	.shop .wrapper .hug .arrows .next {
+		display: none;
+	}
+	.shop .wrapper .hug .slider .slide .product-card .text a {
+		font-size: 18px;
+	}
+	.shop .wrapper .hug .slider .slide .product-card .bag-prise .prise {
+		font-size: 20px;
+	}
+	.shop .wrapper .hug .slick-dots li {
+		width: 50px;
+	}
+	.shop .wrapper .hug .slick-dots li button::before {
+		width: 50px;
+	}
+	.shop {
+		margin-bottom: 50px;
+	}
+	// showrooms ===================================================================================================
+	.showrooms .wrapper .our-showrooms {
+		font-size: 40px;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	.showrooms .wrapper .hug .showrooms-slide .slide .showrooms-block .conteiner {
+		font-size: 18px;
+		line-height: 27px;
+		padding: 15px 50px;
+		top: 18px;
+		right: 67px;
+		width: 300px;
+	}
+	.showrooms .wrapper .hug .showrooms-slide .slide .showrooms-block img {
+		margin-bottom: 30px;
+	}
+	.showrooms .wrapper .slick-dots li {
+		width: 50px;
+	}
+	.showrooms .wrapper .slick-dots li button::before {
+		width: 50px;
+	}
+	.showrooms {
+		margin-bottom: 50px;
+	}
+
+	footer .wrapper .footer-top .footer-logo {
+		display: block;
+		text-align: center;
+	}
+	footer .wrapper .footer-top .footer-logo .line {
+		display: none;
+	}
+	footer .wrapper .footer-bottom {
+		display: none;
+	}
+	footer .stroke {
+		display: none;
+	}
+	footer .wrapper .footer-bottom {
+		padding: 10px 0 15px 0;
+	}
+	footer .wrapper .footer-top .footer-form {
+		display: none;
+	}
+}

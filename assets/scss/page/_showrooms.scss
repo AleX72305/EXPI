@@ -1,0 +1,63 @@
+.showrooms {
+	.our-showrooms {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 55px;
+	margin-top: 30px;
+	}
+}
+
+.contact {
+	margin-bottom: 160px;
+	.wrapper {
+		.contact-text {
+			font-weight: 700;
+			font-size: 40px;
+			line-height: 55px;
+			color: #14420D;
+			@include Manrope();
+			margin-bottom: 40px;
+		}
+		.contact-content {
+			display: flex;
+			justify-content: space-between;
+			ul {
+				width: 240px;
+				.contact-title {
+					font-weight: 500;
+					font-size: 20px;
+					line-height: 135.69%;
+					color: #3A182D;
+					@include Roboto();
+					margin-bottom: 10px;
+				}
+				li {
+					p {
+						font-weight: 400;
+						font-size: 20px;
+						line-height: 135.69%;
+						padding-bottom: 10px;
+						@include Roboto();
+					}
+					a {
+						font-weight: 500;
+						font-size: 20px;
+						line-height: 135.69%;
+						color: #3A182D;
+						@include Roboto();
+						transition: $transition;
+					}
+				}
+				.store {
+					a {
+						text-decoration: underline;
+						&:hover {
+							transition: $transition;
+							text-decoration: none;
+						}
+					}
+				}
+			}
+		}
+	}
+}

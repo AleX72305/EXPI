@@ -65,12 +65,21 @@
 					input {
 						width: 14px;
 						color: #000;
+						&::placeholder {
+							font-weight: 400;
+							font-size: 24px;
+							line-height: 135.69%;
+							color: #000;
+						}
 					}
 					span {
 						cursor: pointer;
 						padding-left: 10px;
 						&:not(:last-child) {
 							padding-right: 10px;
+						}
+						svg {
+							margin-top: -6px;
 						}
 					}
 				}

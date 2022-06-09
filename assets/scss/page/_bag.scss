@@ -20,11 +20,13 @@
 							margin-bottom: 20px;
 						}
 						display: flex;
-						img {
-							width: 268px;
-							height: 170px;
-							object-fit: cover;
-							object-position: center;
+						a {
+							img {
+								width: 268px;
+								height: 170px;
+								object-fit: cover;
+								object-position: center;
+							}
 						}
 						.bag-product-left {
 							padding: 115px 100px;
@@ -44,7 +46,7 @@
 							line-height: 135.69%;
 							color: #000;
 							@include Roboto();
-							padding-bottom: 15px;
+							margin-bottom: 15px;
 						}
 						.cross {
 							cursor: pointer;
@@ -83,7 +85,7 @@
 						display: flex;
 						align-items: center;
 						font-weight: 400;
-						font-size: 20px;
+						font-size: 18px;
 						line-height: 27px;
 						color: #000000;
 						@include Roboto();
@@ -95,6 +97,12 @@
 						input {
 							width: 14px;
 							color: #000;
+							&::placeholder {
+								font-weight: 400;
+								font-size: 24px;
+								line-height: 135.69%;
+								color: #000;
+							}
 						}
 						span {
 							cursor: pointer;
@@ -102,6 +110,9 @@
 							&:not(:last-child) {
 								padding-right: 10px;
 							}
+						}
+						svg {
+							margin-top: -6px;
 						}
 					}
 					.total {
@@ -142,7 +153,7 @@
 						font-weight: 400;
 						font-size: 20px;
 						line-height: 27px;
-						color: #3A182D;
+						color: #3a182d;
 						@include Roboto();
 						margin-bottom: 30px;
 						&::before {
@@ -174,7 +185,7 @@
 						font-weight: 400;
 						font-size: 20px;
 						line-height: 27px;
-						color: #3A182D;
+						color: #3a182d;
 						@include Roboto();
 						transition: $transition;
 						&:hover {
@@ -435,12 +446,12 @@
 							}
 						}
 						input {
-							color: #000;
+							color: #3a182d;
 							&::placeholder {
 								color: #ccc;
 							}
 						}
-						
+
 						.number-card {
 							display: flex;
 							justify-content: space-between;

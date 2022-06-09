@@ -1,12 +1,5 @@
 
 (function ($) {
-	// $("#billing_select option").each(function () {
-	// 	let option = $(this).attr('value');
-	// 	if (jQuery.inArray(option, maxValue) == -1) {
-	// 		// console.log(option);
-	// 		$(this).attr('disabled', true); // Если значения нет в массиве, то к option добавляется атрибут disabled
-	// 	}
-	// });
 
 	$('.select').each(function () {
 		const _this = $(this),
@@ -92,22 +85,24 @@
 	});
 
 
-	$('.menu').on('click', function () {
+	$('.menu-filter').on('click', function () {
 		$('.open-slide-menu').addClass('active');
+		$('body').addClass('none-filter');
 	});
 
 	$('.closes').on('click', function () {
 		$('.open-slide-menu').removeClass('active');
+		$('body').removeClass('none-filter');
 	});
-
-
 
 	$('.open-menu').on('click', function () {
 		$('.slide-mobile-menu').addClass('active');
+		$('body').addClass('none');
 	});
 
 	$('.close').on('click', function () {
 		$('.slide-mobile-menu').removeClass('active');
+		$('body').removeClass('none');
 	});
 
 	$('.category-slider').slick({
@@ -220,24 +215,20 @@
 		arrows: false,
 	});
 
-	var a = 0;
-	forma.mytext.onkeypress = function () {
-		if (a == 4) {
-			a = 0;
-			forma.mytext.value += " ";
+	$('#cards-number').keyup(function () {
+		var foo = $(this).val().split(" ").join(""); // remove hyphens
+		if (foo.length > 0) {
+			foo = foo.match(new RegExp('.{1,4}', 'g')).join(" ");
 		}
-		a++;
-	};
+		$(this).val(foo);
+	});
 
-	var a = 0;
-	forma.mytext.onkeypress = function () {
-		if (a == 2) {
-			a = 0;
-			forma.mytext.value += " ";
+	$('#month').keyup(function () {
+		var foo = $(this).val().split("/").join(""); // remove hyphens
+		if (foo.length > 0) {
+			foo = foo.match(new RegExp('.{1,2}', 'g')).join("/");
 		}
-		a++;
-	};
-
-
+		$(this).val(foo);
+	});
 
 })(jQuery);

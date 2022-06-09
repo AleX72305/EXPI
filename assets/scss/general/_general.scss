@@ -12,6 +12,12 @@ body {
 			text-decoration: underline;
 		}
 	}
+	&.none {
+		overflow: hidden;
+	}
+	&.none-filter {
+		overflow: hidden;
+	}
 }
 
 .wrapper {

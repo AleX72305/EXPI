@@ -6,7 +6,7 @@ header {
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
-			height: 124px;
+			padding: 70px 0 27px 0;
 			.menu-left {
 				display: flex;
 				.logo {
@@ -110,11 +110,11 @@ header {
 					position: relative;
 					&::before {
 						content: "";
-						width: 24px;
+						width: 22px;
 						height: 2px;
 						background-color: #181d31;
-						top: 37%;
-						right: 0;
+						top: 35%;
+						right: -1px;
 						transform: rotate(-45deg);
 						position: absolute;
 						transition: $transition;
@@ -124,7 +124,7 @@ header {
 						width: 2px;
 						height: 22px;
 						background-color: #181d31;
-						right: 11px;
+						right: 9px;
 						transform: rotate(-45deg);
 						position: absolute;
 						transition: $transition;
@@ -212,6 +212,7 @@ header {
 					position: absolute;
 					right: 0;
 					bottom: 0;
+					margin-bottom: 0;
 					a {
 						font-weight: 400;
 						font-size: 20px;
@@ -254,7 +255,7 @@ header {
 				}
 				.item-card {
 					&:nth-child(1) {
-						background: url('../img/men.png');
+						background: url("../img/men.png");
 						background-repeat: no-repeat;
 						object-fit: cover;
 						object-position: center;
@@ -269,7 +270,7 @@ header {
 						}
 					}
 					&:nth-child(2) {
-						background: url('../img/eho.png');
+						background: url("../img/eho.png");
 						background-repeat: no-repeat;
 						object-fit: cover;
 						object-position: center;
@@ -284,7 +285,7 @@ header {
 						}
 					}
 					&:nth-child(3) {
-						background: url('../img/confidence.png');
+						background: url("../img/confidence.png");
 						background-repeat: no-repeat;
 						display: flex;
 						justify-content: center;
@@ -300,7 +301,7 @@ header {
 						}
 					}
 					&:nth-child(4) {
-						background: url('../img/ease.png');
+						background: url("../img/ease.png");
 						background-repeat: no-repeat;
 						display: flex;
 						justify-content: center;
@@ -316,7 +317,7 @@ header {
 						}
 					}
 					&:nth-child(5) {
-						background: url('../img/bright.png');
+						background: url("../img/bright.png");
 						background-repeat: no-repeat;
 						object-fit: cover;
 						object-position: center;
@@ -332,7 +333,7 @@ header {
 						}
 					}
 					&:nth-child(6) {
-						background: url('../img/exterior.png');
+						background: url("../img/exterior.png");
 						background-repeat: no-repeat;
 						display: flex;
 						justify-content: center;
@@ -467,7 +468,8 @@ header {
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
-			padding-bottom: 60px;
+			margin-bottom: 60px;
+			border: 1px solid #14420d;
 			.shop-title {
 				.shop-collection {
 					position: relative;
@@ -678,15 +680,65 @@ footer {
 			align-items: center;
 			padding-top: 23px;
 			padding-bottom: 23px;
-			.footer-logo {
+			.footer-left {
 				display: flex;
 				align-items: center;
-				.line {
-					border-right: 2px solid #9b9b9b;
-					height: 50px;
-					margin-left: 20px;
+				.footer-logo {
+					display: flex;
+					align-items: center;
+					.line {
+						border-right: 2px solid #9b9b9b;
+						height: 50px;
+						margin-left: 20px;
+					}
+				}
+				.footer-form {
+					display: flex;
+					.footer-form-text {
+						margin-left: 50px;
+						span {
+							font-weight: 500;
+							font-size: 20px;
+							line-height: 135.69%;
+							@include Roboto();
+							color: #14420d;
+						}
+						p {
+							font-weight: 400;
+							font-size: 20px;
+							line-height: 27px;
+							@include Roboto();
+							color: #14420d;
+						}
+					}
+					form {
+						position: relative;
+						margin-left: 30px;
+						height: 50px;
+						input {
+							font-weight: 500;
+							font-size: 20px;
+							line-height: 135.69%;
+							align-items: center;
+							text-transform: lowercase;
+							
+							@include Roboto();
+							padding: 12px 100px 11px 20px;
+							&::placeholder {
+								color: #9B9B9B;
+							}
+						}
+						button {
+							cursor: pointer;
+							width: 50px;
+							height: 50px;
+							position: absolute;
+							right: 0;
+						}
+					}
 				}
 			}
+
 			ul {
 				display: flex;
 				li {
@@ -703,42 +755,6 @@ footer {
 						&:hover {
 							color: #000000;
 						}
-					}
-				}
-			}
-			.footer-form {
-				display: flex;
-				.footer-form-text {
-					span {
-						font-weight: 500;
-						font-size: 20px;
-						line-height: 135.69%;
-					}
-					p {
-						font-weight: 400;
-						font-size: 20px;
-						line-height: 27px;
-					}
-				}
-				form {
-					position: relative;
-					margin-left: 30px;
-					input {
-						font-weight: 500;
-						font-size: 20px;
-						line-height: 135.69%;
-						align-items: center;
-						text-transform: lowercase;
-						color: #000;
-						@include Roboto();
-						padding: 12px 215px 12px 20px;
-					}
-					button {
-						cursor: pointer;
-						width: 50px;
-						height: 51px;
-						position: absolute;
-						right: 0;
 					}
 				}
 			}
@@ -761,6 +777,7 @@ footer {
 				font-size: 30px;
 				line-height: 135.69%;
 				margin-bottom: 20px;
+				color: #14420d;
 			}
 			ul {
 				&:not(:last-child) {
@@ -773,6 +790,8 @@ footer {
 						font-weight: 400;
 						font-size: 20px;
 						line-height: 27px;
+						color: #14420d;
+						@include Roboto();
 						transition: $transition;
 						&:hover {
 							transition: $transition;
